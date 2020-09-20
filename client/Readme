@@ -1,0 +1,6 @@
+2 instances of nginx: 
+- external listening port 80 for ROUTING between express and the frontend
+- connected to the frontend
+
+nginx1(port 80) -> nginx(port 3000) -> React
+           -> api(port 5000)
